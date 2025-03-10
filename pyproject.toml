@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adif2callhistory" 
+version = "25.3.10"
+description = "Converts and ADIF file to a call history file usable by Not1MM and N1MM"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name="Michael Bridak", email="michael.bridak@gmail.com" },
+]
+dependencies = [
+  "PyQt6",
+  "PyADIF-File",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Environment :: X11 Applications :: Qt",
+    "Operating System :: POSIX :: Linux",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Topic :: Communications :: Ham Radio",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mbridak/adif2callhistory"
+"Bug Tracker" = "https://github.com/mbridak/adif2callhistory/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+exclude = []
+
+[tool.setuptools.package-data]
+"adif2callhistory" = ["*.ui",]
+"adif2callhistory.icon" = ["*.png",]
+
+[project.scripts]
+adif2callhistory = "adif2callhistory.__main__:run"

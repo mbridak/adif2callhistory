@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>431</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QFormLayout" name="formLayout">
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>20</number>
+      </property>
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="bottomMargin">
+       <number>20</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="call_checkBox">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Call</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="call_comboBox"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="name_checkBox">
+        <property name="text">
+         <string>Name</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="name_comboBox"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="loc1_checkBox">
+        <property name="text">
+         <string>Loc1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="loc1_comboBox"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="loc2_checkBox">
+        <property name="text">
+         <string>Loc2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="loc2_comboBox"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="sect_checkBox">
+        <property name="text">
+         <string>Sect</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="sect_comboBox"/>
+      </item>
+      <item row="5" column="0">
+       <widget class="QCheckBox" name="state_checkBox">
+        <property name="text">
+         <string>State</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QComboBox" name="state_comboBox"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QCheckBox" name="ck_checkBox">
+        <property name="text">
+         <string>CK</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QComboBox" name="ck_comboBox"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QCheckBox" name="birthdate_checkBox">
+        <property name="text">
+         <string>BirthDate</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QComboBox" name="birthdate_comboBox"/>
+      </item>
+      <item row="8" column="0">
+       <widget class="QCheckBox" name="exch1_checkBox">
+        <property name="text">
+         <string>Exch1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QComboBox" name="exch1_comboBox"/>
+      </item>
+      <item row="9" column="0">
+       <widget class="QCheckBox" name="misc_checkBox">
+        <property name="text">
+         <string>Misc</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QComboBox" name="misc_comboBox"/>
+      </item>
+      <item row="10" column="0">
+       <widget class="QCheckBox" name="power_checkBox">
+        <property name="text">
+         <string>Power</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QComboBox" name="power_comboBox"/>
+      </item>
+      <item row="11" column="0">
+       <widget class="QCheckBox" name="cqzone_checkBox">
+        <property name="text">
+         <string>CqZone</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="1">
+       <widget class="QComboBox" name="cqzone_comboBox"/>
+      </item>
+      <item row="12" column="0">
+       <widget class="QCheckBox" name="ituzone_checkBox">
+        <property name="text">
+         <string>ITUZone</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="1">
+       <widget class="QComboBox" name="ituzone_comboBox"/>
+      </item>
+      <item row="13" column="0">
+       <widget class="QCheckBox" name="usertext_checkBox">
+        <property name="text">
+         <string>UserText</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="1">
+       <widget class="QComboBox" name="usertext_comboBox"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>431</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLoad_ADIF"/>
+    <addaction name="actionSave_Call_History"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLoad_ADIF">
+   <property name="text">
+    <string>Load ADIF</string>
+   </property>
+  </action>
+  <action name="actionSave_Call_History">
+   <property name="text">
+    <string>Save Call History</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

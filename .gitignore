@@ -1,0 +1,16 @@
+adif2callhistory/.vscode
+/.venv
+/dist
+/adif2callhistory.egg-info
+/publish.sh
+/builddir
+/.pytest_cache
+__pycache__
+research
+debug
+/testing
+.markdownlint.json
+betatest
+.idea
+venv
+
