@@ -68,3 +68,13 @@ W6ZE,ORANGE COUNTY AMATEUR RADIO CLUB INC,DM13cs,ORG,CA,6A
 ## Recent Changes
 
 - [25-3-10] Initial push.
+
+## Copyright
+
+PyADIF-File © 2023-2024 by Andreas Schawo is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/)
+
+PyADIF-File uses
+
+xmlschema Copyright (c), 2016-2022, SISSA (Scuola Internazionale Superiore di Studi Avanzati)
+
+xmltodict Copyright (c), 2012 Martin Blech and individual contributors
