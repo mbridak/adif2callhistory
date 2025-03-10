@@ -1,5 +1,11 @@
 # adif2callhistory
 
+[![PyPI](https://img.shields.io/pypi/v/adif2callhistory)](https://pypi.org/project/adif2callhistory/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Python: 3.10+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Made With:PyQt6](https://img.shields.io/badge/Made%20with-PyQt6-blue)](https://pypi.org/project/PyQt6/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/adif2callhistory)](https://pypi.org/project/adif2callhistory/)
+
 This package allows you to load an arbitrary ADIF file and map the ADIF tags to N1MM or Not1MM call history file fields.
 After selecting the fields you wished to export, simply save the file under the name you give it.
 
