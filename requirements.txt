@@ -1,4 +1,4 @@
 setuptools
 build
-pyadif-file
+PyADIF-File
 PyQt6
