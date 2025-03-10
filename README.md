@@ -11,6 +11,10 @@ After selecting the fields you wished to export, simply save the file under the 
 
 ![main screen](https://github.com/mbridak/adif2callhistory/blob/main/pic/adif2callhistory_initial.png?raw=true)
 
+## Installation
+
+This Python package is hosted on PyPi. It can be installed with pipx, `pipx install adif2callhistory` or you can use uv.
+
 ## Selecting/loading an ADIF file
 
 Click `File -> Load ADIF` I file picker will appear allowing you to select the file. If the file is parsed correctly the drop downs next to the call history field names will populate with the unique ADIF tags found.
