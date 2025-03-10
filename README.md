@@ -1,5 +1,60 @@
 # adif2callhistory
 
+This package allows you to load an arbitrary ADIF file and map the ADIF tags to N1MM or Not1MM call history file fields.
+After selecting the fields you wished to export, simply save the file under the name you give it.
+
+![main screen](https://github.com/mbridak/adif2callhistory/blob/main/pic/adif2callhistory_initial.png?raw=true)
+
+## Selecting/loading an ADIF file
+
+Click `File -> Load ADIF` I file picker will appear allowing you to select the file. If the file is parsed correctly the drop downs next to the call history field names will populate with the unique ADIF tags found.
+
+One thing that will prevent an ADIF file from parsing is if the ADIF header does not start with a comment line.
+
+So if your ADIF file looks like:
+
+```text
+<ADIF_VER:5>2.2.0
+<EOH>
+<QSO_DATE:8:d>20220625
+<TIME_ON:4>1806
+```
+
+Just add a line to the top like:
+
+```text
+Some Text Here
+<ADIF_VER:5>2.2.0
+<EOH>
+<QSO_DATE:8:d>20220625
+<TIME_ON:4>1806
+```
+
+and retry it.
+
+## Mapping the fields to tags and saving the file
+
+After the ADIF file is loaded and the drop downs are populated with tags, go down the list of fields, place a checkmark to the left of the desired field and select which tag to map to it.
+
+Here's an example of fields selected and mapped to a Field Day ADIF file:
+
+![mapped fields](https://github.com/mbridak/adif2callhistory/blob/main/pic/adif2callhistory_select_fields.png?raw=true)
+
+After selecting and mapping the fields select `File -> Save Call History` and choose a filename and location to save your file.
+
+You will end up with something like:
+
+```text
+!!Order!!,Call,Name,Loc1,Sect,State,Exch1
+K6PV,,,LAX,CA,1D
+K7SS,DANIEL A ESKENAZI,CN87tn,WWA,WA,1D
+K6AA,UNITED RADIO AMATEUR CLUB INC,DM03ur,LAX,CA,3A
+K0EU,RANDALL K MARTIN,DM79lp,CO,CO,1B
+W3AO,NATIONAL PRESS RADIO CLUB,FM18pv,MDC,MD,1E
+W6ZE,ORANGE COUNTY AMATEUR RADIO CLUB INC,DM13cs,ORG,CA,6A
+...
+```
+
 ## Recent Changes
 
 - [25-3-10] Initial push.
