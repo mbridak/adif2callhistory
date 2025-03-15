@@ -67,6 +67,7 @@ W6ZE,ORANGE COUNTY AMATEUR RADIO CLUB INC,DM13cs,ORG,CA,6A
 
 ## Recent Changes
 
+- [25-3-15] Bumped pyadif-file requirement to 1.3.1
 - [25-3-10] Initial push.
 
 ## Copyright

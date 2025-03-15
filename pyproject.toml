@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "adif2callhistory" 
-version = "25.3.10.1"
+version = "25.3.15"
 description = "Converts and ADIF file to a call history file usable by Not1MM and N1MM"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -13,7 +13,7 @@ authors = [
 ]
 dependencies = [
   "PyQt6",
-  "PyADIF-File",
+  "PyADIF-File == 1.3.1",
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
