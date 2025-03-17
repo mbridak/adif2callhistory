@@ -83,7 +83,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def quit_app(self) -> None:
         """
-        Send multicast quit message, then quit the program.
+        Quit the program.
 
         Parameters
         ----------
@@ -173,7 +173,7 @@ class MainWindow(QtWidgets.QMainWindow):
         """..."""
         filename = self.filepicker("new")
         if filename and self.adi_doc:
-            with open(filename, "w", encoding="utf-8") as file_descriptor:
+            with open(filename, "w", encoding="utf-8", newline="") as file_descriptor:
                 header = "!!Order!!"
                 checkedboxes = []
                 for cb in self.name2checkbox:
